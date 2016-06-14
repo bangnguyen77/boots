@@ -1,0 +1,14 @@
+console.log("Start program");
+alert("Help me fix this program!");
+alert("Can you get this message to appear?");
+document.write("<h2>My first JavaScript program</h2>");
+document.write("<p>I'm practicing 'debugging'.</p>");
+console.log("End program");
+/*
+alert("Help me fix this program!");
+alert(Can you get this message to appear?); // add quotes around the message
+document.write("<h2>My first JavaScript program</h2>");
+document.wrong("<p>I'm practicing 'debugging'.</p>"); // spelling "wrong"
+
+
+*/

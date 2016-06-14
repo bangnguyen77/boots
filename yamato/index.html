@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" ref="text/css">
+    <link href="css/styles.css" rel="stylesheet" ref="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Vacation Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1 class="text-center">Where should I go on vacation?</h1>
+      </div>
+      <div class="jumbotron">
+        <div class="intro">
+          <form id="intro">
+            <p>
+              Find out your perfect vacation destination!
+            </p>
+            <label for="name"><small>Optional: enter your name</small></label>
+            <input id="name" class="form-control" type="text">
+            <button type="submit" class="btn btn-primary center-block">Take the quiz</button>
+          </form>
+        </div> <!-- /intro -->
+        <div class="quiz">
+
+          <form id="q1" class="question">
+            <label for="q1">What's your favorite color?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="ant" checked>
+                White
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="moon">
+                Beige
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="trench">
+                Black
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="mtEv">
+                Grey
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary center-block">Submit</button>
+          </form>
+
+          <form id="q2" class="question">
+            <label for="q2">What's your favorite way to get around?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="ant" checked>
+                I like to go by boat.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="mtEv">
+                I enjoy really long walks.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="moon">
+                I prefer air travel.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="trench">
+                Nothing beats a submarine ride.
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary center-block">Submit</button>
+          </form>
+
+          <form id="q3" class="question">
+            <label for="q3">Which of these foods sounds the most enticing?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="trench" checked>
+                Exotic deap-sea fish.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="moon">
+                Cheese.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="ant">
+                The blubber of Fur Seals.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="mtEv">
+                Spam and peanut butter, served in an aluminum mug.
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary center-block">Submit</button>
+          </form>
+
+          <form id="q4" class="question">
+            <label for="q4">What's your ideal pet?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="ant" checked>
+                A penguin.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="moon">
+                A dog, preferably named Laika.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="trench">
+                A giant tube worm.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q4" value="mtEv">
+                A yeti.
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary center-block">Submit</button>
+          </form>
+
+          <form id="q5" class="question">
+            <label for="q5">What's your travel budget?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q5" value="ant" checked>
+                About $10,000.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q5" value="mtEv">
+                About $100,000.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q5" value="trench">
+                About $5,000,000.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q5" value="moon">
+                About $1,700,000,000.
+              </label>
+            </div>
+            <button type="submit" class="btn btn-success center-block">Finish</button>
+          </form>
+        </div>
+
+        <div id="results">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
